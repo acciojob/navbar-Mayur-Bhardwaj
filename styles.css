@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+.nav{
+	background-color: #6e072d;
+	display: flex;
+	color: white;
+	width:100%;
+	justify-content: space-between;
+}
+.first,.last{
+	margin:0px;
+	padding:0px;
+	display:flex;
+	list-style:none;
+	cursor: pointer;
+}
+.last {
+  margin-left: auto;
+	cursor: pointer;
+}
+
+.first li,
+.last li {
+  font-size: 18px;
+  padding: 18px 27px; /* 18px vertical, 1.5*18=27px horizontal */
+	cursor: pointer;
+}
+.first li,
+.last li {
+  border-right: 2px solid white;
+	cursor: pointer;
+}
+.first li:last-child {
+  border-right: none;
+	cursor: pointer;
+}
+.last li:first-child {
+  border-left: none;
+	cursor: pointer;
+}
+
+li:hover {
+  background-color: #b90e4d;
+}
